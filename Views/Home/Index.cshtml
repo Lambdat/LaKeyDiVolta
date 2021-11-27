@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>@ViewData["Message"]</p>
+
+    <!-- Questo è un Tag Helper-->
+    <a asp-controller="home" asp-action="about">Chi siamo</a>
+</div>
